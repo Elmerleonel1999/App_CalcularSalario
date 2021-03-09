@@ -13,18 +13,20 @@
   </header>
 
   <section class="row mt-2">
-    <article class="col-md-4 mx-auto bg-secondary p-1">
-      <h1 class="text-white ">Indicaciones</h1>
-      <ol class="text-white">
-        <li>Ingrese su nombre completo</li>
-        <li>Ingrese el total de horas laboradas durante la semana</li>
-        <li>Ingrese el salario devengado por hora laborada</li>
-      </ol>
+    <article class="col-md-4 mx-auto  p-1">
+      <div class="alert alert-secondary" role="alert">
+        <h1>Indicaciones</h1>
+        <ol>
+          <li>Ingrese su nombre completo</li>
+          <li>Ingrese el total de horas laboradas durante la semana</li>
+          <li>Ingrese el salario devengado por hora laborada</li>
+        </ol>
+      </div>
     </article>
   </section>
 
   <main class="row mt-4">
-    <form class="col-md-4 mx-auto border p-4" action="./server/main.php" method="POST">
+    <form class="col-md-5 mx-auto border p-4" action="./server/main.php" method="POST">
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">Nombre</span>
         <input type="text" class="form-control" name="nombre"  aria-label="Username" aria-describedby="basic-addon1" autofocus>
