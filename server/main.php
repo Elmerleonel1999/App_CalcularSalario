@@ -47,7 +47,7 @@
       <div class="alert alert-secondary text-center" role="alert">
         Las horas ingresadas, son horas laboradas en una semana
         <br>
-        las horas extras valen un 50% del salario por hora original
+        las horas extras valen un 50% mas del salario por hora original
       </div>
       <table class="table table-bordered ">
       <thead class="bg-dark">
